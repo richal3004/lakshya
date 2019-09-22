@@ -1,0 +1,80 @@
+/* Header */
+@font-face { 
+
+font-family: Showcard Gothic; 
+
+src: local("Showcard Gothic"), url("../fonts/codropsiconsSHOWG.TTF") format("opentype") 
+
+} 
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #000;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/white.png'),url('../img/date.png');
+	background-position: center, right bottom;
+	background-size: 1400px,430px;
+	background-repeat:no-repeat;
+
+}
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #ff9205;
+	top: 93%;
+	left:50%;
+	
+}
+@keyframes shake {
+ from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.demo-1 .main-title{
+	text-transform: uppercase;
+	font-size: 1.8vw;
+	letter-spacing: 0.1vw;
+	font-weight: 150;
+	font-family: Showcard Gothic;
+	animation-name: shake;
+    animation-duration: 4s;
+    text-align: center;
+}
+.main-title .thin {
+	font-weight: 150;
+	font-size: 0.4em;
+	text-align: center;
+}
+.custom_btn{
+	font-weight: 600;
+	line-height: 30px;
+	background-color: rgba(0,0,0,0);
+	color: #ffffff;
+	padding: 10px 30px;
+	border: 2px solid #FBAD00;
+	border-radius: 15px;
+	text-decoration: none;
+	-webkit-transition-duration: 0.5s; /* Safari */
+}
+.custom_btn:hover{
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #ff9205;
+	cursor: pointer;
+}

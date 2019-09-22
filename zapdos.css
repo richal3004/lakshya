@@ -1,0 +1,116 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+ #bg {
+     position: fixed;
+     top: 0;
+     left: 0;
+    /* Preserve aspet ratio */
+     min-width: 100%;
+     min-height: 100%;
+}
+ blockquote{
+     border-left:5px solid #F4AC26;
+}
+ #myBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 30px;
+     z-index: 9;
+     border: none;
+     outline: none;
+     background-color: red;
+     border: 2px solid red;
+     color: #ffffff;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 15px;
+}
+ #myBtn:hover {
+     background-color: #ffffff;
+     color: red;
+}
+ .new_div{
+     margin-top: 50px;
+}
+ .btn_separator{
+     margin-top: 50px;
+}
+ .center_align{
+     text-align: center;
+}
+ .container_heading{
+     font-weight: 800;
+     line-height: 30px;
+     text-align: center;
+     color: #333333;
+}
+ .container_subheading{
+     font-weight: 600;
+     line-height: 30px;
+     color: #353535;
+}
+ .container_content{
+     font-weight: 400;
+     line-height: 30px;
+     color: #333333;
+}
+ .zoom {
+     transition: transform .2s;
+     margin: 0 auto;
+}
+ .zoom:hover {
+     -ms-transform: scale(1.1);
+    /* IE 9 */
+     -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+     transform: scale(1.1);
+}
+ .custom_btn{
+     font-weight: 600;
+     line-height: 30px;
+     background-color: #FBAD00;
+     color: #ffffff;
+     padding: 10px 30px;
+     border: 2px solid #FBAD00;
+     border-radius: 15px;
+     text-decoration: none;
+     -webkit-transition-duration: 0.5s;
+    /* Safari */
+}
+ .custom_btn:hover{
+     text-decoration: none;
+     background-color: #ffffff;
+     color: #FBAD00;
+     cursor: pointer;
+}
+ .custom_btn_footer{
+     font-weight: 600;
+     line-height: 20px;
+     background-color: #000000;
+     color: #ffffff;
+     padding: 5px 10px;
+     border: 2px solid #ffffff;
+     border-radius: 15px;
+     text-decoration: none;
+     -webkit-transition-duration: 0.5s;
+    /* Safari */
+}
+ .custom_btn_footer:hover{
+     text-decoration: none;
+     background-color: #ffffff;
+     color: #000000;
+     cursor: pointer;
+}
+ .newRow{
+     text-align: center;
+     margin: none;
+     padding: none;
+}
+ #map {
+     height: 600px;
+     width: 100%;
+}
